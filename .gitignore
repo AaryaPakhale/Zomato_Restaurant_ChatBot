@@ -1,0 +1,7 @@
+.env
+restaurant_kb.pkl
+chroma_db/
+chat_cache/
+.gradio/
+__pycache__/
+google-chrome-stable_current_amd64.deb/
