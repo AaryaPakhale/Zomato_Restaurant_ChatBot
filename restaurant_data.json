@@ -1,0 +1,476 @@
+[{
+    "restaurant_name": "Yang's Kitchen",
+    "location": "112 W Main St. Alhambra, CA 91801",
+    "menu_items": [
+      {
+        "name": "Chicken Liver Mousse",
+        "description": "Jidori chicken liver mousse, grilled Bub & Grandma's sourdough sesame toast, house jam, Chavez Farms market pickles, seasonal herbs"
+      },
+      {
+        "name": "Raw Oysters",
+        "description": "Fresh oysters of-the-moment, ponzu, fermented hot sauce, lemon"
+      },
+      {
+        "name": "Smoked Fish Dip",
+        "description": "Smoked fish-of-the-moment dip, Bub & Grandma's sesame sourdough toast, herbs (contains dairy and shallots)"
+      },
+      {
+        "name": "Smoked Salmon Hash",
+        "description": "Smoked salmon belly, preserved meyer lemon crème fraiche, wild salmon or trout roe, house made hash brown, dill, chives"
+      },
+      {
+        "name": "Yang's Fried Chicken Wings",
+        "description": "Mary's Heirloom chicken wings, lemon, house salt & pepper"
+      },
+      {
+        "name": "Grilled Fish Collars",
+        "description": "Dry-aged fish collars of the day, house made green sauce, chili crisp, lemon"
+      },
+      {
+        "name": "Persimmon & Kale Salad",
+        "description": "Gonzaga Farms persimmons, Chavez Farms lacinato kale, herbs, organic multigrain rice, roasted pumpkin seeds, crispy rice, house miso lemon vinaigrette"
+      },
+      {
+        "name": "David's Arroz Caldo",
+        "description": "Filipino style chicken broth porridge, choice of chicken thigh or mushrooms, fried shallots, soy egg, scallions, cilantro"
+      },
+      {
+        "name": "Cold Sesame Noodles",
+        "description": "Semolina organic spaghetti, house sesame sauce, organic Persian cucumbers, pickled carrots, crushed peanuts, cilantro, scallion, house chili crisp *contains nuts*"
+      },
+      {
+        "name": "Cornmeal Mochi Pancake",
+        "description": "Grist & Toll cornmeal, Koda Farms mochiko rice flour, organic whipped cream, seasonal toppings"
+      },
+      {
+        "name": "Roasted Squash & Kale Salad",
+        "description": "Roasted Yao Cheng Farms organic kabocha squash, Chavez Farms lacinato kale, herbs, organic multigrain rice, roasted pumpkin seeds, crispy rice, house miso lemon vinaigrette"
+      },
+      {
+        "name": "Breakfast Plate",
+        "description": "Two farm fresh eggs, house made hash browns, seasonal Farmers Market greens, choice of protein, and house made scallion ranch sauce"
+      },
+      {
+        "name": "Yang's Set Meal",
+        "description": "Choice of protein, organic multigrain rice, Omiso's awase miso soup, seasonal Farmers Market vegetables, house pickles, soy egg"
+      },
+      {
+        "name": "Market Grill Plate",
+        "description": "Choice of protein, grilled Farmers Market vegetables, house pickles, house green sauce"
+      },
+      {
+        "name": "Steelhead & Ikura Bowl",
+        "description": "Yuzu miso marinated dry aged steelhead, wild marinated trout roe, organic multigrain rice, market greens, soy egg"
+      },
+      {
+        "name": "Avocado",
+        "description": ""
+      },
+      {
+        "name": "Braised Tofu",
+        "description": "Braised Meiji firm tofu, radish sprouts, scallions"
+      },
+      {
+        "name": "Bub & Grandma's Sesame Toast",
+        "description": "Two slices of sesame sourdough toast"
+      },
+      {
+        "name": "Two Eggs",
+        "description": "scrambled, sunny-side up, or over-easy"
+      },
+      {
+        "name": "Omiso Soup",
+        "description": "Bowl of awase miso soup"
+      },
+      {
+        "name": "Organic Multigrain Rice",
+        "description": "Bowl of organic multigrain rice"
+      },
+      {
+        "name": "Peads & Barnetts Sausage Patty",
+        "description": "One sausage patty"
+      },
+      {
+        "name": "Peads & Barnetts Bacon Slice",
+        "description": "One bacon slice"
+      },
+      {
+        "name": "Soy Egg",
+        "description": ""
+      },
+      {
+        "name": "Dry-aged Barramundi",
+        "description": ""
+      },
+      {
+        "name": "Dry-aged Steelhead (w/ yuzu miso!)",
+        "description": ""
+      },
+      {
+        "name": "Grilled Seasonal Farmers Market Vegetables",
+        "description": ""
+      },
+      {
+        "name": "Grass-fed Hanger Steak",
+        "description": ""
+      },
+      {
+        "name": "Mushroom Medley",
+        "description": ""
+      },
+      {
+        "name": "Pastured Chicken Thigh",
+        "description": ""
+      },
+      {
+        "name": "Elaine's 'Purin'",
+        "description": "Japanese-style egg pudding, burnt Okinawan brown sugar syrup"
+      },
+      {
+        "name": "Organic Vanilla Soft Serve and/or House Sorbet",
+        "description": "Optional Toppings: + Housemade Red Bean Paste + Sweet Cornflakes + Rooted Fare's Black Sesame Crunchy Butter (contains peanuts!)"
+      },
+      {
+        "name": "Chili Crisp",
+        "description": ""
+      },
+      {
+        "name": "Green Sauce",
+        "description": ""
+      },
+      {
+        "name": "Lacto-Fermented Chili Garlic Sauce",
+        "description": ""
+      },
+      {
+        "name": "Scallion Ranch Dressing",
+        "description": ""
+      },
+      {
+        "name": "Raw Oysters of the Day",
+        "description": "Fresh oysters of-the-moment, ponzu, fermented hot sauce, lemon"
+      },
+      {
+        "name": "Ginger Scallion Hiramasa",
+        "description": "Dry-aged hiramasa (kingfish), ginger scallion sauce, fried ginger"
+      },
+      {
+        "name": "Will's Steelhead Belly Aguachile",
+        "description": "Dry-aged steelhead belly, beet aguachile, fennel, orange"
+      },
+      {
+        "name": "Dungeness Crab Cold Noodle",
+        "description": "Semolina organic spaghetti, local dungeness crab meat, bottarga, fried shallots, shallot oil, seasonal vegetable"
+      },
+      {
+        "name": "Market Salad w/ Seaweed Vin",
+        "description": "Seaweed vinaigrette, seasonal produce and fruit, avocado, Fat Uncle almonds, cashews"
+      },
+      {
+        "name": "Blistered Sugar Snap Peas",
+        "description": "Mushroom meat, fried shallots, mint, chives"
+      },
+      {
+        "name": "Grilled Cabbage w/ Bagna Cauda",
+        "description": "FM cabbage, pepita bagna cauda, preserved lemon"
+      },
+      {
+        "name": "Grilled Dry-aged Fish Collars",
+        "description": "Dry-aged fish collars of the day, house made green sauce, chili crisp, lemon"
+      },
+      {
+        "name": "Smoked Pork Jowl Cha Siu",
+        "description": "Peads & Barnetts pork jowl, hot mustard"
+      },
+      {
+        "name": "'Secret' Potatoes",
+        "description": "Smashed Weiser Farm potatoes, aromatic chili cumin butter, chili crisp, scallion, cilantro"
+      },
+      {
+        "name": "'Dan Dan' Campanelle",
+        "description": "Semolina organic campanelle, Bih Shan mushrooms, mustard stems, chili crisp, scallion"
+      },
+      {
+        "name": "'Hainan' Fish Rice",
+        "description": "Dry-aged barramundi, chicken fat rice, chili butter, ginger scallion sauce, pickled cucumbers"
+      },
+      {
+        "name": "Claypot Mussels",
+        "description": "Chili butter, chicken stock, Peads & Barnetts bacon, shallot, sake, seasonal vegetables, mung bean noodle sheets"
+      },
+      {
+        "name": "Braised Duck Leg with Taro",
+        "description": "Soy-braised Jurgielewicz duck leg, organic Yao Cheng Farms taro puree, chives, soy jus"
+      },
+      {
+        "name": "Mapo Tofu",
+        "description": "Meiji tofu, Bih Shan mushrooms, sichuan pepper, scallion, jasmine rice"
+      },
+      {
+        "name": "Kent's Lamb Shank Curry",
+        "description": "House made curry, Weiser Farm potatoes, cilantro, jasmine rice"
+      },
+      {
+        "name": "20 oz. Wanderer Ribeye Steak",
+        "description": "Red wine mushroom demi-glace, Yasutomi Farm asatsuki"
+      },
+      {
+        "name": "Bub's Sesame Toast",
+        "description": ""
+      },
+      {
+        "name": "Chicken Fat Rice",
+        "description": ""
+      },
+      {
+        "name": "House Pickles",
+        "description": ""
+      },
+      {
+        "name": "Jasmine Rice",
+        "description": ""
+      },
+      {
+        "name": "Smashed Potatoes w/ House Garlic Aioli",
+        "description": ""
+      },
+      {
+        "name": "Black Sesame Cake w/ Caramel",
+        "description": "Served with fresh whipped cream & house whiskey caramel"
+      },
+      {
+        "name": "Cold Brew",
+        "description": "made with Postera Coffee Roasters coffee beans"
+      },
+      {
+        "name": "Drip",
+        "description": "using Postera Coffee Roasters coffee beans!"
+      },
+      {
+        "name": "Tea",
+        "description": "Joimo High Mountain Oolong HOT / notes of earthy floral, roasted camellia"
+      },
+      {
+        "name": "Joimo Ruby Oolong",
+        "description": "HOT or ICED/ notes of caramel, cocoa, wheat, sugar cane"
+      },
+      {
+        "name": "Farmers Market 'Orange Juice'",
+        "description": "Fresh squeezed farmers market oranges (or it could be tangerines/mandarins; basically anything delicious from the market!)"
+      },
+      {
+        "name": "Kombucha",
+        "description": "Joimo oolong tea, seasonal Farmers Market fruit"
+      },
+      {
+        "name": "Oolong Fresca",
+        "description": "FM oranges, Joimo oolong tea, lemongrass, lime leaf, organic mint"
+      },
+      {
+        "name": "Strawberry Amazake 'Smoothie'",
+        "description": "Chavez Farms strawberries, amazake (Japanese fermented rice beverage), almond milk, lime zest"
+      },
+      {
+        "name": "Kevin's Coffee Tonic",
+        "description": "Red Bean Milk"
+      },
+      {
+        "name": "Yang Bang Hot Preserved Meyer Lemon Tea",
+        "description": "Soft Beverages"
+      },
+      {
+        "name": "Diet Coke",
+        "description": ""
+      },
+      {
+        "name": "Mexican Coke",
+        "description": ""
+      },
+      {
+        "name": "Sanzo Sparkling Water",
+        "description": ""
+      },
+      {
+        "name": "Calamansi / Lychee / Pomelo / Yuzu w/ Ginger",
+        "description": "Topo Chico Sparkling Water (355ml)"
+      },
+      {
+        "name": "Mountain Valley Sparkling Water (1L)",
+        "description": ""
+      },
+      {
+        "name": "Mountain Valley Still Water (1L)",
+        "description": ""
+      },
+      {
+        "name": "Don't Be Salty",
+        "description": "Preserved meyer lemon, meyer lemon juice, honey, sparkling wine, Heiwa lemon sake float"
+      },
+      {
+        "name": "Market Mimosa",
+        "description": "Farmer's Market fresh-squeezed orange juice and sparkling wine."
+      },
+      {
+        "name": "Oolong Spritz",
+        "description": "Refreshing, made with our Oolong Fresca base, sparkling wine, and organic mint."
+      },
+      {
+        "name": "Umeshu Highball",
+        "description": "12 month aged house made umeshu (shochu infused with ume), sparkling water"
+      },
+      {
+        "name": "Yuzu Martini",
+        "description": "shochu, yuzu bitters, yuzu juice, sake, Bermutto vermouth"
+      }
+    ],
+    "special_features": [
+      "[gf]",
+      "[ve]",
+      "[v]",
+      "[gf][ve]"
+    ],
+    "hours": {
+      "Mon": "9:00am - 2:30pm",
+      "Tue": "Closed",
+      "Wed": "Closed",
+      "Thu": "9:00am - 2:30pm, 5:00pm - 9:00pm",
+      "Fri": "9:00am - 2:30pm, 5:00pm - 9:00pm",
+      "Sat": "9:00am - 2:30pm, 5:00pm - 9:00pm",
+      "Sun": "9:00am - 2:30pm, 5:00pm - 9:00pm"
+    },
+    "contact_info": {
+      "phone": "6262811035",
+      "email": "hello@yangskitchenla.com",
+      "address": "112 West Main Street, Alhambra, CA, 91801, United States"
+    },
+    "extra_info": {
+      "parking_info": "DO NOT park in Rick's parking lot - they WILL TOW at all times of the day! The open parking lot directly behind our restaurant has 2 hour free parking, or is free after 5:00PM. Nearby, South and North of Main St on 1st St, there are two parking structures with 4 hour free parking.",
+      "business_hours_note": "We are now open for dinner service Thursday through Sunday! We'll be accepting limited walk-ins and reservations on OpenTable. For brunch, we still do not take reservations as we seat guests on a first come first serve basis. However, you can join our Yelp! Waitlist to save your spot ahead of time (same day only)!",
+      "awards_and_reviews": [
+        "The 40 best restaurants in Los Angeles you need to try",
+        "The 15 best new Los Angeles restaurants of 2019",
+        "L.A.'s 10 Best New Restaurants of 2019",
+        "LA's Best New Restaurants of 2019",
+        "Best New Restaurants in L.A. 2019 With 'The Infatuation'",
+        "101 Best LA Restaurants 2023",
+        "101 Best LA Restaurants 2022",
+        "101 Best LA Restaurants 2021",
+        "101 Best LA Restaurants 2020",
+        "L.A.'s 15 best dishes of 2019",
+        "SGV Darling Yang's Kitchen Cleverly Riffs on Iconic Chinese Dishes With New Dinner Service",
+        "Celebrated Alhambra Restaurant Yang's Kitchen Is Back In Action After a Long Hiatus",
+        "Yang's Kitchen Is Redefining Chinese Cooking in the San Gabriel Valley",
+        "Eater Awards 2019",
+        "16 Most Important Los Angeles Restaurant Openings in 2019",
+        "The 24 Restaurants We Couldn't Stop Talking About in 2019",
+        "20 Best Restaurants In Los Angeles, Ranked"
+      ]
+    }
+  },
+  {
+    "restaurant_name": "Anjappar Chettinad Restaurant",
+    "location": "17/35, Suprabath Flats - A, Thyagaraya Gramani St, T Nagar, Chennai, India 600017",
+    "menu_items": [],
+    "special_features": [],
+    "hours": {
+      "mon": "11am - 11pm",
+      "tue": "11am - 11pm",
+      "wed": "11am - 11pm",
+      "thu": "11am - 11pm",
+      "fri": "11am - 11pm",
+      "sat": "11am - 11pm",
+      "sun": "11am - 11pm"
+    },
+    "contact_info": {
+      "office_hours": "Mon - Sat: 11am - 7pm",
+      "phone": "044 2814 4033",
+      "email": "info@anjappar.com"
+    }
+  },
+  {
+    "restaurant_name": "Biryani Blues",
+    "location": null,
+    "menu_items": [
+      {
+        "name": "HYDERABADI DUM BIRYANI",
+        "description": "Our expert chefs are dedicated to using the freshest and highest quality ingredients to create an authentic Hyderabadi taste that will transport you straight to streets of Hyderabad."
+      },
+      {
+        "name": "STARTERS & MORE",
+        "description": "In addition to our delicious biryanis, we also offer a range of traditional Nizami recipes, kebabs, mouthwatering starters and desserts that are sure to please any palate."
+      }
+    ],
+    "special_features": [],
+    "hours": {},
+    "contact_info": "8800302442"
+  },
+  {
+    "restaurant_name": "Sagar Ratna",
+    "location": [
+    "Galaxy Cinema Vaishali",
+    "Max Hospital, Saket"
+    ],
+    "menu_items": {"name": "Idlis", "description": "Idli is a very popular south indian dish"}
+  },
+  {
+    "restaurant_name": "Desi Vibes",
+    "location": [
+        {
+          "address": "G-44, Ist Floor Sector-18, Noida-201301"
+        },
+        {
+          "address": "3rd Floor Gaur City Mall, Noida Extension"
+        },
+        {
+          "address": "3rd Floor, Spectrum metro mall, Sector 75, Noida, Uttar Pradesh 201305"
+        },
+        {
+          "address": "Connaught Place (now closed)"
+        }
+      ],
+      "menu_items": [],
+      "special_features": [],
+      "hours": {
+        "all_days": "11.30am to 11.30pm"
+      },
+      "contact_info": {
+        "phone_numbers": [
+          "0120 4222227",
+          "0120 4222228",
+          "9811777468",
+          "8882197491",
+          "098186 52999"
+        ]
+      },
+      "extra_info": {
+        "awards": [
+          "The Best North Indian Restaurant In Delhi NCR By IPSA",
+          "Global Quality Award",
+          "Quality North Indian Food and Services",
+          "City Plus",
+          "Jagran",
+          "Mail Today",
+          "The Hindu",
+          "5 Reasons Food and Nightlife",
+          "Burrp Certified",
+          "Vogue Chronicle",
+          "Times Research - Best North Indian restaurant in Noida",
+          "Femina Magazine",
+          "Food and Beverage magazine",
+          "HtCity Food and Service magazine",
+          "Delhi Times",
+          "Whats Hot!",
+          "Trip advisor Service excellence since 2012",
+          "Zomato Value for Money",
+          "Zomato User choice",
+          "Best Family Restaurant",
+          "Best North Indian Restaurant in Noida",
+          "TLF magazine"
+        ],
+        "services": [
+          "Free Home Delivery",
+          "Catering",
+          "Kitty Parties"
+        ]
+      }
+  }]
