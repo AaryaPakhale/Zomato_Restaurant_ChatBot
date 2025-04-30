@@ -57,29 +57,29 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### Setup
 1. Clone this repository:
-   '''
+   ```
    git clone https://github.com/your-username/Zomato_Restaurant_ChatBot.git
    cd Zomato_Restaurant_ChatBot
-   '''
+   ```
 2. Install dependencies:
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 3. Set environment variables:
 - Create a `.env` file with the following:
-  '''
+  ```
   GROQ_API_KEY=your_groq_api_key
   SERPER_API_KEY=your_serper_api_key
   HF_API_TOKEN=your_hf_api_key
-  '''
+  ```
   
 ## Usage
 
 ### 1. Web Scraping
   To collect restaurant data:
-      '''
+      ```
       python web_scrapper.py
-      '''
+      ```
   This will:
 - Crawl the configured restaurant websites
 - Extract structured data using the agentic extractor
@@ -87,9 +87,9 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 2. Build Knowledge Base
   To create the vector database:
-      '''
+      ```
       python knowledge_base.py
-      '''
+      ```
   This will:
 - Process the raw restaurant data
 - Create ChromaDB collections for efficient retrieval
@@ -97,9 +97,9 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 3. Run Chatbot
   To start the chatbot interface:
-     '''
+     ```
      python rag_chatbot.py
-     '''
+     ```
   This will:
 - Initialize the chatbot with the knowledge base
 - Start a Gradio web server (default: http://localhost:7860)
