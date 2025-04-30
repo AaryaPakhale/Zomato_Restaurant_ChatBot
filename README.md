@@ -77,6 +77,7 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 1. Web Scraping
   To collect restaurant data:
+      
       ```
       python web_scrapper.py
       ```
@@ -87,6 +88,7 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 2. Build Knowledge Base
   To create the vector database:
+      
       ```
       python knowledge_base.py
       ```
@@ -97,7 +99,8 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 3. Run Chatbot
   To start the chatbot interface:
-    ```
+     
+     ```
      python rag_chatbot.py
      ```
   This will:
