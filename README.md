@@ -115,16 +115,7 @@ https://github.com/user-attachments/assets/00d633a5-1f88-4de8-9126-85ff080c536a
  - Attached in the files
 
 ## System Architecture
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  Web Scraping   │────>│  Knowledge Base │────>│   RAG Chatbot   │
-│    Pipeline     │     │    Creation     │     │    Interface    │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
-       │                         │                       │
-       ▼                         ▼                       ▼
-┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│ restaurant_data │     │ restaurant_kb.  │     │   Web UI &      │
-│     .json       │     │     pkl         │     │ API Endpoints   │
-└─────────────────┘     └─────────────────┘     └─────────────────┘
+[Screenshot 2025-04-30 221152](https://github.com/user-attachments/assets/e7e70d80-596b-4b67-833b-afc0c4cf488f)
 
 ## Technologies Used
 - **Web Scraping**: BeautifulSoup4, Selenium
