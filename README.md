@@ -115,7 +115,7 @@ https://github.com/user-attachments/assets/00d633a5-1f88-4de8-9126-85ff080c536a
  - Attached in the files
 
 ## System Architecture
-[Screenshot 2025-04-30 221152](https://github.com/user-attachments/assets/e7e70d80-596b-4b67-833b-afc0c4cf488f)
+https://github.com/user-attachments/assets/e7e70d80-596b-4b67-833b-afc0c4cf488f
 
 ## Technologies Used
 - **Web Scraping**: BeautifulSoup4, Selenium
@@ -125,76 +125,75 @@ https://github.com/user-attachments/assets/00d633a5-1f88-4de8-9126-85ff080c536a
 - **User Interfaces**: Gradio, Streamlit (alternative)
 - **API Integration**: Serper for web search
   
-## Challenges Faced and Solutions Implemented
+# Challenges Faced and Solutions Implemented
 
-### Web Scraping Challenges
+## Web Scraping Challenges
 
-#### Challenge: Dynamic JavaScript Content
+### Challenge: Dynamic JavaScript Content
 Modern restaurant websites heavily rely on JavaScript to render content, making traditional HTML scraping ineffective.
 
 **Solution:** Implemented a dual-approach system with Selenium for JavaScript-rendered content and BeautifulSoup for static content. Added appropriate wait times to ensure full page rendering before extraction.
 
-#### Challenge: Inconsistent Website Structures
+### Challenge: Inconsistent Website Structures
 Each restaurant website has unique layouts, making it difficult to create a universal scraper.
 
 **Solution:** Developed an LLM-based agentic extractor that understands context and can identify restaurant information regardless of the specific HTML structure or naming conventions.
 
-#### Challenge: Rate Limiting and Anti-Scraping Measures
+### Challenge: Rate Limiting and Anti-Scraping Measures
 Some websites implement measures to prevent scraping.
 
 **Solution:** Built robust retry mechanisms with exponential backoff, respected robots.txt policies, implemented appropriate request delays, and rotated user agents to mimic human browsing behavior.
 
-### Data Processing Challenges
+## Data Processing Challenges
 
-#### Challenge: Unstructured and Inconsistent Data
+### Challenge: Unstructured and Inconsistent Data
 Raw extracted data varied widely in format, completeness, and terminology.
 
 **Solution:** Created a comprehensive text preprocessing pipeline with normalization, tokenization, and lemmatization to standardize data. Used the LLM to identify and categorize information regardless of how it was presented on the source website.
 
-#### Challenge: Menu Item Classification
+### Challenge: Menu Item Classification
 Identifying dietary restrictions and special features from menu descriptions was difficult due to inconsistent labeling.
 
 **Solution:** Implemented a specialized dietary information extractor that recognizes various ways restaurants indicate features like vegetarian, vegan, or gluten-free options, using pattern matching and keyword identification.
 
-#### Challenge: Missing or Partial Information
+### Challenge: Missing or Partial Information
 Some restaurant websites had incomplete information about hours, locations, or menu details.
 
 **Solution:** Created a fallback system that combines data across multiple pages and leverages web search to fill information gaps. The system also explicitly acknowledges uncertainty when information is incomplete.
 
-### RAG Implementation Challenges
+## RAG Implementation Challenges
 
-#### Challenge: Query Understanding
+### Challenge: Query Understanding
 User queries can be ambiguous or contain multiple intents.
 
 **Solution:** Implemented a relevancy analysis agent that correctly identifies the query intent and type before retrieval, allowing for more targeted information retrieval and response generation.
 
-#### Challenge: Balancing Retrieval Precision and Recall
+### Challenge: Balancing Retrieval Precision and Recall
 Finding the right information without retrieving excessive irrelevant content was difficult.
 
 **Solution:** Designed a multi-collection vector database architecture that separates restaurants and menu items, enabling more focused retrieval. Implemented custom similarity thresholds that adapt based on query type.
 
-#### Challenge: Response Quality with Limited Data
+### Challenge: Response Quality with Limited Data
 When the knowledge base had insufficient information, responses could be incomplete or unhelpful.
 
 **Solution:** Created a sufficiency detector that determines when knowledge base information is inadequate and automatically augments results with web search data. The response generator then synthesizes information from both sources.
 
-### Technical Implementation Challenges
+## Technical Implementation Challenges
 
-#### Challenge: Large-Scale Vector Storage
+### Challenge: Large-Scale Vector Storage
 As the database grew, efficient vector search became more challenging.
 
 **Solution:** Integrated ChromaDB with custom collection structures and metadata filtering to maintain fast retrieval times even with growing data volumes.
 
-#### Challenge: API Cost Management
+### Challenge: API Cost Management
 LLM API calls can be expensive, especially with high volumes.
 
 **Solution:** Implemented tiered architecture where simpler queries are resolved with basic keyword matching, reserving LLM calls for complex tasks. Added token tracking and rate limiting to prevent unnecessary API usage.
 
-#### Challenge: Deployment Resource Constraints
+### Challenge: Deployment Resource Constraints
 The full system requires significant resources to run all components simultaneously.
 
 **Solution:** Designed a modular architecture that separates the web scraping, knowledge base creation, and chatbot components. This allows for staged execution on limited hardware and more efficient resource allocation.
-
 ## Future Improvements
 - Expand restaurant database with more diverse options
 - Implement more advanced conversation history tracking
