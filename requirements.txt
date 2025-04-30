@@ -20,11 +20,11 @@ lxml==4.9.3
 python-dateutil==2.8.2
 pdfplumber==0.10.3
 python-dotenv==1.0.0
-tenacity==8.1.0
-tqdm==4.64.1
+tenacity>=8.2.3  # Updated to match chromadb's requirement
+tqdm>=4.65.0
 pyyaml==6.0
-typing-extensions>=4.5.0  # Fixed: Matches both gradio and chromadb
+typing-extensions>=4.5.0
 
-# Optional (remove if unused)
+# Optional (comment out if not needed)
 # selenium==4.8.0
 # webdriver-manager==3.8.6
