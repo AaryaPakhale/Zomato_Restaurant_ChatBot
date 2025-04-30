@@ -2,7 +2,6 @@
 
 ## Overview
 A Retrieval Augmented Generation (RAG) chatbot for restaurant information, created for the Zomato Gen AI Internship Assignment. This system combines web scraping, vector databases, and large language models to answer natural language questions about restaurants with accurate, contextual responses.
-Access the Gradio app here: https://huggingface.co/spaces/AaryaPakhale/Zomato_Restaurant_ChatBot
 
 ## Description
 This project builds an end-to-end Generative AI solution that enables users to ask questions like:
@@ -207,5 +206,5 @@ MIT
 ## Author
 Aarya Yogesh Pakhale
 
-
+Access the Gradio app here: https://huggingface.co/spaces/AaryaPakhale/Zomato_Restaurant_ChatBot
    
