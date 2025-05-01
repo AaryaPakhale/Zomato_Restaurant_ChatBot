@@ -76,10 +76,9 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 1. Web Scraping
   To collect restaurant data:
-      
-      ```
-      python web_scrapper.py
-      ```
+   ```
+   python web_scrapper.py
+   ```
   This will:
 - Crawl the configured restaurant websites
 - Extract structured data using the agentic extractor
@@ -87,10 +86,9 @@ This project builds an end-to-end Generative AI solution that enables users to a
 
 ### 2. Build Knowledge Base
   To create the vector database:
-      
-      ```
-      python knowledge_base.py
-      ```
+   ```
+   python knowledge_base.py
+   ```
   This will:
 - Process the raw restaurant data
 - Create ChromaDB collections for efficient retrieval
@@ -99,9 +97,9 @@ This project builds an end-to-end Generative AI solution that enables users to a
 ### 3. Run Chatbot
   To start the chatbot interface:
      
-     ```
-     python rag_chatbot.py
-     ```
+   ```
+   python rag_chatbot.py
+   ```
   This will:
 - Initialize the chatbot with the knowledge base
 - Start a Gradio web server (default: http://localhost:7860)
@@ -112,7 +110,7 @@ https://github.com/user-attachments/assets/00d633a5-1f88-4de8-9126-85ff080c536a
 
 ## Scraped Dataset
  - Attached in the files
- - 
+   
 ## Link to the Website
  - https://huggingface.co/spaces/AaryaPakhale/Zomato_Restaurant_ChatBot
    
